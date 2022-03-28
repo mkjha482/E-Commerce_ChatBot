@@ -6,3 +6,8 @@ JSON file for saving the intent training data and data file for the transactions
 Tensorflow for training the chatbot.
 
 Welcome to SID, an AI chatbot to help you with all your E-Commerce needs.
+
+app.py is the code for the bot; training.py is the code for training the bot using tensorflow; Data.json is the database file for the products and user information;
+intents.json is the list of patterns and possible responses for the bot and the user.
+SntimentAnalyser.py is another code written to analyse the user inputs to check for his mood, "positive", "negative", "neutral". This has been integrated into the app.py already.
+data.txt is the file in which user inputs are being saved for analysing.
