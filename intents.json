@@ -1,0 +1,84 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, How are you?", "Good to see you!", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {
+     "tag": "caring",
+     "patterns": ["How are you?"],
+     "responses": ["I m fine! Thanks for asking", "I m doing good! How can I help you?"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How can you help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+     "responses": ["I can guide you through product purchase", "Suggest you some products based on wha you need", "Can provide you with the list for products available to buy"],
+     "context": [""]
+    },
+    {"tag": "products",
+     "patterns": ["What are the products available?", "Open the list of the available products" ],
+     "responses": ["Fetching list of products" , "Checking availability of the products" ],
+     "context": [""]
+    },
+    {"tag": "return",
+     "patterns": ["Can I return an order?", "Check return possibility", "What are the return policies?" ],
+     "responses": ["I hope I was helpful","I hope it helped"],
+     "context": [""]
+    },
+    {"tag": "purchase",
+     "patterns": ["Give me my purchase history", "What products have I purchased?", "List of my purchase"],
+     "responses": ["I hope I was helpful","I hope it helped"],
+     "context": [""]
+    },
+    {"tag": "search_order_by_id",
+     "patterns": [],
+     "responses": ["Loading order list"],
+     "context": [""]
+    },
+    {"tag": "delivery",
+     "patterns": ["What is the delivery status of my order?", "Track order status", "Where is my order?", "Locate my order" ],
+     "responses": ["Please provide order ID", "Share the order ID"],
+     "context": ["search_order_by_id"]
+    },
+    {"tag": "search_order_by_id",
+     "patterns": [],
+     "responses": ["Loading details"],
+     "context": [""]
+    },
+    {"tag": "refund",
+     "patterns": [ "Track refund status","Check for refund"],
+     "responses": ["Please provide order ID", "Provide the order ID" ],
+     "context": [""]
+    },
+    {"tag": "help",
+      "patterns": ["Yes, it helped","Yes, it was helpful","Thanks, it helped"],
+      "responses": ["Glad to know that","Glad to know I was helpful"],
+      "context": [""]
+    },
+    {"tag": "buy",
+      "patterns": ["What can I buy?","What products can I buy","What is there to buy?"],
+      "responses": ["I hope I was helpful","I hope it helped"],
+      "context": [""]
+    },
+    {"tag": "reply",
+      "patterns": ["I am fine","I am doing good"],
+      "responses": ["Glad to know that. How can I help?","Great. What can I help you with?"],
+      "context": [""]
+    }
+]
+}

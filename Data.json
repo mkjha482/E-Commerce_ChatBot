@@ -1,0 +1,78 @@
+{
+  "Details": [
+    {
+      "Orderid": "O110219",
+      "CustomerName": "Kshitij Kalauni",
+      "Productid": "P1234",
+      "Availability": "109",
+      "ProductName": "HP Pavilion Gaming Laptop"
+    },
+    {
+      "Orderid": "O111200",
+      "CustomerName": "Mayank Kumar Jha",
+      "Productid": "P1555",
+      "Availability": "0"
+    },
+    {
+  "Orderid": "O298543",
+  "CustomerName": "Mayank Agarwal",
+  "Productid": "P1587",
+  "Availability": "10",
+  "ProductName": "Acer Heavy Duty Monitor"
+    },
+    {
+  "Orderid": "O789654",
+  "CustomerName": "Kshitij Tiwari",
+  "Productid": "P2589",
+  "Availability": "52",
+  "ProductName": "Logitech-Keyboard"
+   },
+   {
+  "Orderid": "O55555",
+  "CustomerName": "Mashit TiJha Agarwal",
+  "Productid": "P200192",
+  "Availability": "0"
+   },
+   {
+      "Orderid": "O111221",
+      "CustomerName": "Mayank Kumar Jha",
+      "Productid": "P15589",
+      "Availability": "0"
+   },
+   {
+      "Orderid": "O1112768",
+      "CustomerName": "Mayank Kumar Jha",
+      "Productid": "P15897",
+      "Availability": "0",
+      "ProductName": "Computer-Mouse"
+   },
+   {
+  "Orderid": "O78900876",
+  "CustomerName": "Kshitij Tiwari",
+  "Productid": "P2009876",
+  "Availability": "5",
+  "ProductName": "Cricket-Bat"
+   },
+   {
+  "Orderid": "O7456789",
+  "CustomerName": "Kshitij Tiwari",
+  "Productid": "P2678900",
+  "Availability": "35",
+  "ProductName": "Soccer-Ball"
+   },
+   {
+      "Orderid": "O11088765",
+      "CustomerName": "Kshitij Kalauni",
+      "Productid": "P1234987",
+      "Availability": "1002",
+      "ProductName": "Cricket-Bat"
+   },
+   {
+      "Orderid": "O1102190012",
+      "CustomerName": "Kshitij Kalauni",
+      "Productid": "P1237768",
+      "Availability": "10",
+      "ProductName" : "juicer"
+   }
+  ]
+}
